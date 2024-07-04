@@ -16,7 +16,7 @@ Customers CRUD Operations is a Spring Boot application designed to manage custom
 ## Architecture Overview
 The project follows a layered architecture using Spring Boot, incorporating MVC design pattern for handling web requests and JPA for data persistence. PostgreSQL is used as the database managed via Docker.
 
-![Architecture Diagram](zeyadayman99/Customers_CRUD_Operations/src/main/resources/N tier architecture.jpg)
+![N Tier Architecture](resources/N%20tier%20architecture.jpg)
 
 ### Package Structure
 - **`com.example.customers.controller`**: Contains REST controllers for handling HTTP requests.
@@ -42,3 +42,18 @@ Follow these steps to set up and run the Customers CRUD Operations project local
 1. Clone the repository:
    ```bash
    git clone https://github.com/zeyadayman99/Customers_CRUD_Operations.git
+
+2. Ensure Docker is installed and running.
+3. Start PostgreSQL database in Docker:
+   ```bash
+   docker-compose up -d
+4. Build and run the Spring Boot application using Maven:
+   ```bash
+   cd Customers_CRUD_Operations
+   mvn spring-boot:run
+
+## Testing API with Postman
+
+- Import the collection from 'docs/postman_collection.json' to Postman.
+- Use the collection to test CRUD operations for customers.
+
