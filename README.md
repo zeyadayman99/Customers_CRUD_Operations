@@ -16,7 +16,7 @@ Customers CRUD Operations is a Spring Boot application designed to manage custom
 ## Architecture Overview
 The project follows a layered architecture using Spring Boot, incorporating MVC design pattern for handling web requests and JPA for data persistence. PostgreSQL is used as the database managed via Docker.
 
-![N Tier Architecture](resources/N%20tier%20architecture.jpg)
+![N Tier Architecture](src/main/resources/N tier architecture.jpg)
 
 ### Package Structure
 - **`com.example.customers.controller`**: Contains REST controllers for handling HTTP requests.
