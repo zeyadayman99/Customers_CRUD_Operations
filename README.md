@@ -1,7 +1,7 @@
 # Customers CRUD Operations
 
 ## Project Description
-Customers CRUD Operations is a Spring Boot application designed to manage customer data using RESTful APIs. It utilizes Spring MVC for handling web requests, Spring Data JPA for database interactions, and PostgreSQL as the database managed via Docker. The application supports basic CRUD operations (Create, Read, Update, Delete) for managing customer records.
+Customers CRUD Operations is a Spring Boot application designed as a basic CRM (Customer Relationship Management) CRUD application to manage customer data using RESTful APIs. It utilizes Spring MVC for handling web requests, Spring Data JPA for database interactions, and PostgreSQL as the database managed via Docker. The application supports basic CRUD operations (Create, Read, Update, Delete) for managing customer records, providing a foundational component for a more comprehensive CRM system.
 
 ## Technologies Used
 - ![Java](https://img.shields.io/badge/Java-8+-blue.svg)
